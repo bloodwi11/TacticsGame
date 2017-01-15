@@ -15,6 +15,9 @@ public abstract class Buff {
     boolean pacify; // Can only make friendly actions (Heal, Buff, Use Items, Ally & Self targeting only)
     boolean daze; // Half casting speed
 
+    //== Buffs ==
+    boolean fly; // Allows the passage of all impassible terrain
+
     /*
     Poisoned
     Cursed
